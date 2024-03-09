@@ -21,7 +21,7 @@ export default function Home(){
                     <p className="font-Inter font-semibold text-[16px] text-gray-600">Enjoy quick, reliable solutions when you need them most with our on-demand services.</p>
                 </div>
                 <div className="flex items-center justify-between gap-x-3 border-2 mt-6 h-12 rounded-lg w-full border-gray-500">
-                    <div className="flex items-center gap-x-3 pl-6 ">
+                    <div className="flex items-center gap-x-3 pl-3 ">
                         <CiSearch className="text-black w-[28px] h-[28px]" /> <input className="font-normal font-mons text-[18px] text-[#4335c1] " type="text" placeholder="I need help with..."/>
                     </div>
                     <div className="bg-[#7F27FF] w-[35%] h-full text-center flex items-center rounded-r-md hover:bg-[#A367B1]x">
