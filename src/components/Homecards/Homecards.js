@@ -88,6 +88,9 @@ export default function Homecards(){
                     </div>
                 </div>
             </div>
+            <div className="mt-8">
+                <a href="#Home"><p className="font-outfit text-[16px] font-bold text-[#4335c1] hover:text-[#7E30E1] cursor-pointer w-max">See more Buddies</p></a>
+            </div>
         </div>
     );
 }

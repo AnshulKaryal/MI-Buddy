@@ -27,7 +27,7 @@ export default function Footer(){
                     <Link to='/' className='font-Inter font-normal text-[16px] text-white'>About</Link>
                     <Link to='/' className='font-Inter font-normal text-[16px] text-white'>Features</Link>
                     <Link to='/' className='font-Inter font-normal text-[16px] text-white'>Locations</Link>
-                    <Link to='/' className='font-Inter font-normal text-[16px] text-white'>Contact Us</Link>
+                    <Link to='/ContactUs' className='font-Inter font-normal text-[16px] text-white'>Contact Us</Link>
                 </div>
                 <div className="flex space-x-8">
                     <Link to='/'><FaTwitter className="text-white w-[20px] h-[20px]" /></Link>

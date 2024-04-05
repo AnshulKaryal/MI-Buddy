@@ -7,7 +7,7 @@ import HomeCustomerReview from "../HomeCustomerReview/HomeCustomerReview";
 
 export default function Home(){
     return (<>
-        <div className="h-[83vh] flex justify-between pt-20 mx-[6.25rem]">
+        <div id="Home" className="h-[83vh] flex justify-between pt-10 mx-[6.25rem]">
             <div className="w-[45%]">
                 <div>
                     <div>
@@ -20,21 +20,25 @@ export default function Home(){
                 <div className="mt-4">
                     <p className="font-Inter font-semibold text-[16px] text-gray-600">Enjoy quick, reliable solutions when you need them most with our on-demand services.</p>
                 </div>
-                <div className="flex items-center justify-between gap-x-3 border-2 mt-6 h-12 rounded-lg w-full border-gray-500">
-                    <div className="flex items-center gap-x-3 pl-3 ">
-                        <CiSearch className="text-black w-[28px] h-[28px]" /> <input className="font-normal font-mons text-[18px] text-[#4335c1] " type="text" placeholder="I need help with..."/>
+                <div className="flex items-center space-x-14 mt-6">
+                    <Link to="/Electricians">
+                        <div className="flex flex-col items-center border rounded-xl px-7 py-4 space-y-4 bg-[#F3F8FF] hover:text-[#7E30E1]">
+                            <img className="w-[60px] " src="../img/electricianhomeimg.png" alt="electrician-logo"/>
+                            <p className="font-mons font-semibold text-[#4335c1] ">Electrician</p>
+                        </div>
+                    </Link>
+                    <Link to="/">
+                    <div className="flex flex-col items-center border rounded-xl px-7 py-4 space-y-4 bg-[#F3F8FF] hover:text-[#7E30E1]">
+                        <img className="w-[70px]" src="../img/carpainterhomeimg.png" alt="electrician-logo"/>
+                        <p className="font-mons font-semibold text-[#4335c1] ">Carpainter</p>
                     </div>
-                    <div className="bg-[#7F27FF] w-[35%] h-full text-center flex items-center rounded-r-md hover:bg-[#A367B1]x">
-                        <button className=" font-semibold font-Inter pl-6 text-[18px] text-white ">
-                            Get Help today
-                        </button>
+                    </Link>
+                    <Link to="/">
+                    <div className="flex flex-col items-center border rounded-xl px-7 py-4 space-y-4 bg-[#F3F8FF] hover:text-[#7E30E1]">
+                        <img className="w-[60px]" src="../img/plumberhomeimg.png" alt="electrician-logo"/>
+                        <p className="font-mons font-semibold text-[#4335c1] ">Plumber</p>
                     </div>
-                </div>
-                <div className="space-x-4 mt-4">
-                    <Link className="font-semibold font-mons text-[12px] text-[#4335c1] border-2 py-[5px] px-4 rounded-lg border-[#4335c1] hover:text-[#A367B1] hover:border-[#A367B1]" to="/">Appliance Repairs</Link>
-                    <Link className="font-semibold font-mons text-[12px] text-[#4335c1] border-2 py-[5px] px-4 rounded-lg border-[#4335c1] hover:text-[#A367B1] hover:border-[#A367B1]" to="/">Home Repairs</Link>
-                    <Link className="font-semibold font-mons text-[12px] text-[#4335c1] border-2 py-[5px] px-4 rounded-lg border-[#4335c1] hover:text-[#A367B1] hover:border-[#A367B1]" to="/">Help Moving</Link>
-                    <Link className="font-outfit font-semibold text-[16px] hover:text-slate-600" to="/">See more</Link>
+                    </Link>
                 </div>
             </div>
             <div>
