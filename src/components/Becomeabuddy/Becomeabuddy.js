@@ -25,7 +25,7 @@ export default function Becomeabuddy(){
                             <input className="border rounded-md font-mons py-2 pl-4 w-full outline-[#A367B1]" type="text" placeholder="Your Condition 1"/>
                             <input className="border rounded-md font-mons py-2 pl-4 w-full outline-[#A367B1]" type="text" placeholder="Your Condition 2"/>
                         </div>
-                        <button className="font-Inter font-semibold text-[20px] text-white py-2 rounded-md bg-[#49108B] mt-6">Register Now</button>
+                        <button className="font-int font-semibold text-[20px] text-white py-2 rounded-md bg-[#49108B] mt-6">Register Now</button>
                     </div>
                 </div>
                 <div className="w-[30%] flex items-center">

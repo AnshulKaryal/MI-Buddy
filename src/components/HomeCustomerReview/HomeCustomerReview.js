@@ -14,13 +14,13 @@ export default function HomeCustomerReview(){
                             <img className="w-[40px] h-[40px] rounded-full" src="../img/twitterimg1.png"/>
                             <div>
                                 <p className="font-outfit font-semibold text-[16px]">Kadin Torff</p>
-                                <p className="font-Inter text-slate-500 text-[12px]">@darrels</p>
+                                <p className="font-int text-slate-500 text-[12px]">@darrels</p>
                             </div>
                         </div>
                         <FaTwitter className="text-cyan-400 w-6 h-6" />
                     </div>
                     <div className="mt-4">
-                        <p className="font-Inter font-medium text-[14px] text-slate-800">"Wilson was fantastic! Easy to work with, efficient, and went above and beyond when the task ended up being much larger/longer then we ant..."</p>
+                        <p className="font-int font-medium text-[14px] text-slate-800">"Wilson was fantastic! Easy to work with, efficient, and went above and beyond when the task ended up being much larger/longer then we ant..."</p>
                         <p className="font-outfit font-semibold text-[#4335c1] pt-3 text-[14px]">Delivery</p>
                     </div>
                 </div>
@@ -31,13 +31,13 @@ export default function HomeCustomerReview(){
                             <img className="w-[40px] h-[40px] rounded-full" src="../img/twitterimg2.png"/>
                             <div>
                                 <p className="font-outfit font-semibold text-[16px]">Kadin Torff</p>
-                                <p className="font-Inter text-slate-500 text-[12px]">@darrels</p>
+                                <p className="font-int text-slate-500 text-[12px]">@darrels</p>
                             </div>
                         </div>
                         <FaTwitter className="text-cyan-400 w-6 h-6" />
                     </div>
                     <div className="mt-4">
-                        <p className="font-Inter font-medium text-[14px] text-slate-800">"Wilson was fantastic! Easy to work with, efficient, and went above and beyond when the task ended up being much larger/longer then we ant..."</p>
+                        <p className="font-int font-medium text-[14px] text-slate-800">"Wilson was fantastic! Easy to work with, efficient, and went above and beyond when the task ended up being much larger/longer then we ant..."</p>
                         <p className="font-outfit font-semibold text-[#4335c1] pt-3 text-[14px]">Delivery</p>
                     </div>
                 </div>
@@ -48,13 +48,13 @@ export default function HomeCustomerReview(){
                             <img className="w-[40px] h-[40px] rounded-full" src="../img/twitterimg3.png"/>
                             <div>
                                 <p className="font-outfit font-semibold text-[16px]">Kadin Torff</p>
-                                <p className="font-Inter text-slate-500 text-[12px]">@darrels</p>
+                                <p className="font-int text-slate-500 text-[12px]">@darrels</p>
                             </div>
                         </div>
                         <FaTwitter className="text-cyan-400 w-6 h-6" />
                     </div>
                     <div className="mt-4">
-                        <p className="font-Inter font-medium text-[14px] text-slate-800">"Wilson was fantastic! Easy to work with, efficient, and went above and beyond when the task ended up being much larger/longer then we ant..."</p>
+                        <p className="font-int font-medium text-[14px] text-slate-800">"Wilson was fantastic! Easy to work with, efficient, and went above and beyond when the task ended up being much larger/longer then we ant..."</p>
                         <p className="font-outfit font-semibold text-[#4335c1] pt-3 text-[14px]">Delivery</p>
                     </div>
                 </div>
@@ -65,13 +65,13 @@ export default function HomeCustomerReview(){
                             <img className="w-[40px] h-[40px] rounded-full" src="../img/twitterimg4.png"/>
                             <div>
                                 <p className="font-outfit font-semibold text-[16px]">Kadin Torff</p>
-                                <p className="font-Inter text-slate-500 text-[12px]">@darrels</p>
+                                <p className="font-int text-slate-500 text-[12px]">@darrels</p>
                             </div>
                         </div>
                         <FaTwitter className="text-cyan-400 w-6 h-6" />
                     </div>
                     <div className="mt-4">
-                        <p className="font-Inter font-medium text-[14px] text-slate-800">"Wilson was fantastic! Easy to work with, efficient, and went above and beyond when the task ended up being much larger/longer then we ant..."</p>
+                        <p className="font-int font-medium text-[14px] text-slate-800">"Wilson was fantastic! Easy to work with, efficient, and went above and beyond when the task ended up being much larger/longer then we ant..."</p>
                         <p className="font-outfit font-semibold text-[#4335c1] pt-3 text-[14px]">Delivery</p>
                     </div>
                 </div>

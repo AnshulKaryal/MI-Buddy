@@ -6,7 +6,7 @@ module.exports = {
       fontFamily: {
         'Gorditas': ['Gorditas'],
         'mons': ['Montserrat', 'sans-serif'],
-        'Inter': ['Inter', 'sans-serif'],
+        'int': ['Inter', 'sans-serif'],
         'outfit': ['Outfit'],
       },
     },

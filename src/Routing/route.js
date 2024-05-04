@@ -9,6 +9,7 @@ import Electricians from '../components/Electricians/Electricians'
 import ContactUs from '../components/ContactUs/ContactUs'
 import ScrollToTop from '../components/ScrollToTop'
 import Becomeabuddy from '../components/Becomeabuddy/Becomeabuddy'
+import ServicesMain from '../components/Services/ServicesMain'
 
 const Router = () => {
     return (
@@ -23,6 +24,7 @@ const Router = () => {
                     <Route exact path={'/Electricians'} element={<Electricians />}></Route>
                     <Route exact path={'/ContactUs'} element={<ContactUs />}></Route>
                     <Route exact path={'/Becomeabuddy'} element={<Becomeabuddy />}></Route>
+                    <Route exact path={'/services'} element={<ServicesMain />}></Route>
                 </Routes>
                 <Footer/>
             </BrowserRouter >

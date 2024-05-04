@@ -12,7 +12,7 @@ export default function Homecards(){
                         <div className="flex flex-col pt-6 space-y-2 items-center">
                             <img className="w-[100px] h-[100px] border-[7px] rounded-full" src="../img/Homeprofileimg1.png" alt="ProfileImg"/>
                             <p className="font-outfit text-[18px] font-semibold">Zarie Westervelt</p>
-                            <p className="font-Inter font-medium text-[12px] text-slate-500">928 Completed tasks</p>
+                            <p className="font-int font-medium text-[12px] text-slate-500">928 Completed tasks</p>
                         </div>
                         <hr className="border-1 border-gray-300 mt-10 mx-8"/>
                         <div className="flex justify-between mx-8 mt-3">
@@ -30,7 +30,7 @@ export default function Homecards(){
                     </div>
                     <div className="mt-8 ">
                         <p className="font-outfit text-center text-[18px] font-semibold">I'm Right person for the job </p>
-                        <p className="font-Inter font-medium text-center text-[14px]">I have all the neccessary supplies and resources to make your transition simple, stree-free, and successful</p>
+                        <p className="font-int font-medium text-center text-[14px]">I have all the neccessary supplies and resources to make your transition simple, stree-free, and successful</p>
                     </div>
                 </div>
                 {/* 2 */}
@@ -39,7 +39,7 @@ export default function Homecards(){
                         <div className="flex flex-col pt-6 space-y-2 items-center">
                             <img className="w-[100px] h-[100px] border-[7px] rounded-full" src="../img/Homeprofileimg2.png" alt="ProfileImg"/>
                             <p className="font-outfit text-[18px] font-semibold">Zarie Westervelt</p>
-                            <p className="font-Inter font-medium text-[12px] text-slate-500">928 Completed tasks</p>
+                            <p className="font-int font-medium text-[12px] text-slate-500">928 Completed tasks</p>
                         </div>
                         <hr className="border-1 border-gray-300 mt-10 mx-8"/>
                         <div className="flex justify-between mx-8 mt-3">
@@ -57,7 +57,7 @@ export default function Homecards(){
                     </div>
                     <div className="mt-8 ">
                         <p className="font-outfit text-center text-[18px] font-semibold">I'm Right person for the job </p>
-                        <p className="font-Inter font-medium text-center text-[14px]">I have all the neccessary supplies and resources to make your transition simple, stree-free, and successful</p>
+                        <p className="font-int font-medium text-center text-[14px]">I have all the neccessary supplies and resources to make your transition simple, stree-free, and successful</p>
                     </div>
                 </div>
                 {/* 3 */}
@@ -66,7 +66,7 @@ export default function Homecards(){
                         <div className="flex flex-col pt-6 space-y-2 items-center">
                             <img className="w-[100px] h-[100px] border-[7px] rounded-full" src="../img/Homeprofileimg3.png" alt="ProfileImg"/>
                             <p className="font-outfit text-[18px] font-semibold">Zarie Westervelt</p>
-                            <p className="font-Inter font-medium text-[12px] text-slate-500">928 Completed tasks</p>
+                            <p className="font-int font-medium text-[12px] text-slate-500">928 Completed tasks</p>
                         </div>
                         <hr className="border-1 border-gray-300 mt-10 mx-8"/>
                         <div className="flex justify-between mx-8 mt-3">
@@ -84,7 +84,7 @@ export default function Homecards(){
                     </div>
                     <div className="mt-8 ">
                         <p className="font-outfit text-center text-[18px] font-semibold">I'm Right person for the job </p>
-                        <p className="font-Inter font-medium text-center text-[14px]">I have all the neccessary supplies and resources to make your transition simple, stree-free, and successful</p>
+                        <p className="font-int font-medium text-center text-[14px]">I have all the neccessary supplies and resources to make your transition simple, stree-free, and successful</p>
                     </div>
                 </div>
             </div>

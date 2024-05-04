@@ -1,0 +1,38 @@
+.paste-button {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;  
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    min-width: 137px;
+    background-color: #FFFFFF;
+    border: 2px solid #E26EE5;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a {
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+    transition: 0.1s;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #E26EE5;
+    color: #212121;
+  }
+  
+  .dropdown-content a:focus {
+    background-color: #E26EE5;
+    color: #212121;
+  }
+  
+
+  .paste-button:hover .dropdown-content {
+    display: block;
+  }
+  

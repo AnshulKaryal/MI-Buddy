@@ -1,0 +1,84 @@
+.animateScroll {
+    animation: scroll 14s infinite;
+}
+  
+@keyframes scroll {
+    0%, 100% {
+        transform: translateY(-80%);
+        animation-timing-function: cubic-bezier(0,0,0.2,1);
+    }
+    50% {
+        transform: none;
+        animation-timing-function: cubic-bezier(0,0,0.2,1);
+    }
+}
+  
+  
+  
+.fadeInLeft{
+    animation-name: fadeInLeft;
+    animation-duration: 2.5s;
+}
+
+.fadeInRight{
+    animation-name: fadeInRight;
+    animation-duration: 2.5s;
+}
+
+.fadeInTop{
+    animation-name: fadeInTop;
+    animation-duration: 2.5s;
+}
+
+.fadeInBottom{
+    animation-name: fadeInBottom;
+    animation-duration: 2.5s;
+}
+  
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+  
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes fadeInTop {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+@keyframes fadeInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}

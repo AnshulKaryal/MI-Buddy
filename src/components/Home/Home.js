@@ -18,7 +18,7 @@ export default function Home(){
                     <p className="font-outfit text-gray-900 font-extrabold text-[50px] leading-none">On-demand home services are just a click away!</p>
                 </div>
                 <div className="mt-4">
-                    <p className="font-Inter font-semibold text-[16px] text-gray-600">Enjoy quick, reliable solutions when you need them most with our on-demand services.</p>
+                    <p className="font-int font-semibold text-[16px] text-gray-600">Enjoy quick, reliable solutions when you need them most with our on-demand services.</p>
                 </div>
                 <div className="flex items-center space-x-14 mt-6">
                     <Link to="/Electricians">

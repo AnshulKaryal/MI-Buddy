@@ -19,10 +19,10 @@ export default function Login(){
                 </div>
                 <div className="flex flex-col space-y-6">
                     <div className="w-full border border-[#9D9D9D] rounded-md">
-                        <input className="font-Inter text-[#9D9D9D] text-[18px] w-full rounded-md p-2 pl-3 h-[48px] font-Montserrat outline-none" type="text" placeholder="Email*" required/>
+                        <input className="font-int text-[#9D9D9D] text-[18px] w-full rounded-md p-2 pl-3 h-[48px] font-Montserrat outline-none" type="text" placeholder="Email*" required/>
                     </div>
                     <div className="flex items-center w-full border border-[#9D9D9D] rounded-md">
-                        <input className="font-Inter  text-[#9D9D9D] text-[18px] w-full rounded-md p-2 pl-3 h-[48px] font-Montserrat outline-none" type={showPassword ? "text" : "password"} placeholder="Password*" required/>
+                        <input className="font-int  text-[#9D9D9D] text-[18px] w-full rounded-md p-2 pl-3 h-[48px] font-Montserrat outline-none" type={showPassword ? "text" : "password"} placeholder="Password*" required/>
                         {showPassword ? <FaEyeSlash className="w-[20px] h-[20px] mr-4" onClick={() => setShowPassword(!showPassword)} /> : <FaEye className="w-[20px] h-[20px] mr-4" onClick={() => setShowPassword(!showPassword)} />}
                     </div>
                 </div>
