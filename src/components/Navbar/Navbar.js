@@ -10,8 +10,8 @@ export default function Navbar(){
                 <div>
                     <div className="space-x-8 ">
                         <Link to='/' className='font-semibold font-mons text-[16px]'>Location</Link>
-                        <Link to='/services' className='font-semibold font-mons text-[16px]'>Service</Link>
-                        <Link to='/Login' className='font-semibold font-mons text-[16px]'>Login/SignUp</Link>
+                        <Link to='/services' className='font-semibold font-mons text-[16px]'>Services</Link>
+                        <Link to='/Register' className='font-semibold font-mons text-[16px]'>Login/SignUp</Link>
                         <Link to='/Becomeabuddy' className='font-semibold font-mons text-[16px] text-[#4335c1] border-2 py-[5px] px-6 rounded-lg border-[#4335c1] hover:text-[#A367B1] hover:border-[#A367B1]'>Become a Buddy</Link>
                     </div>
                 </div>

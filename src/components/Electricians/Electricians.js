@@ -14,7 +14,7 @@ export default function Electricians(){
                         <input className="border font-mons pl-4 rounded-md" type="text" placeholder="Search Name"/>
                         <div className="flex border items-center px-4 rounded-md justify-evenly space-x-4 cursor-pointer button paste-button">
                             <FaSortAmountDown className="w-[20px] h-[20px] text-gray-600" />
-                            <div class="  font-int">
+                            <div class="font-int">
                                 <p className=" font-semibold py-2 text-[20px] text-gray-600 rounded-xl">Sort By</p>
                                 <div class="dropdown-content">
                                     <a id="top" href="#">Price</a>

@@ -25,7 +25,7 @@ export default function Footer(){
                 </div>
                 <div className="space-x-14">
                     <Link to='/' className='font-int font-normal text-[16px] text-white'>About</Link>
-                    <Link to='/' className='font-int font-normal text-[16px] text-white'>Features</Link>
+                    <Link to='/' className='font-int font-normal text-[16px] text-white'>Services</Link>
                     <Link to='/' className='font-int font-normal text-[16px] text-white'>Locations</Link>
                     <Link to='/ContactUs' className='font-int font-normal text-[16px] text-white'>Contact Us</Link>
                 </div>
